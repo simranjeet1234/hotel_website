@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    height: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header_top_left{
+    display: flex;
+    margin-top: 5px;
+    
+}
+.header_top_right{
+    display: flex;
+    margin-top: 6px;
+
+
+}
+.header_top_left > div{
+    margin: 3px;
+    color: #aaa7a5;
+}
+.header_top_right > div{
+    margin: 5px;
+    color: #79b530;
+}
+.header_middle{
+    display: flex;
+    justify-content: space-between;
+    height: 12%;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    padding-top: 20px;
+}
+.header_middle_left > img{
+    height: 60px ;
+}
+.header_middle_right{
+    display: flex;
+}
+.header_middle_right > div{
+    margin: 8px;
+}
+.header_middle_right > div >  button{
+    border: 2px solid #79b530 ;
+    padding: 10px;
+    color: #79b530 ;
+    position: relative;
+    bottom: 4px;
+
+}
+.header_middle_right > div > div > span{
+    color: #c3c1c0;
+    margin: 10px auto   ;
+}
+.header_middle_right > div > i{
+    color:#79b530; 
+    font-size: 25px;
+}
+#place{
+    position: relative;
+    top: 5px;
+}
+.header_bottom{
+    height: 5%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#79b530 ;
+    padding-top: 5px;
+}
+.header_link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+    
+}
+.header_link > div {
+    font-size: large;
+    color: white;
+    
+}
+.body{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,5)),
+    url(./images/banner-image.jpg);
+     background-repeat: no-repeat;
+    width: 100%;
+    height: 75%;
+    position: relative;
+}
+.body_text{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+}
+.body_button{
+    display: flex;
+    margin-left: 550px;
+    gap: 10px;
+    margin-top: 8px;
+}
+.body_button > div > button{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 7px;
+}
+.body_button > div > button:hover{
+    background-color:#79b530; 
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    background-color: #4886ff;
+}
+.card2{
+    background-color: #ff6f6f ;
+}
+.card3{
+    background-color:#b5d56a ;
+}
+.card4{
+    background-color:#fa8147 ;
+}
+.footer{
+    position: relative;
+    top: -100px;
+}
+.footer > div{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer > div > i{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+    
+}
+h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer > div > p{
+    color: white;
+    text-align: center;
+}
