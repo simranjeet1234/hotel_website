@@ -1,6 +1,12 @@
 *{
     margin: 0;
 }
+.content_wrapper{
+     max-width: 1366px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+}
 .header_top{
     display: flex;
     justify-content: space-between;
@@ -8,6 +14,7 @@
     height: 5%;
     padding-left: 100px;
     padding-right: 100px;
+
 }
 .header_top_left{
     display: flex;
@@ -131,7 +138,7 @@
 }
 .footer{
     position: relative;
-    top: -100px;
+    top: -80px;
 }
 .footer > div{
     height: 200px;
